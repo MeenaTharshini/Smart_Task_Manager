@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+
+body{
+  font-family:'Poppins',sans-serif;
+  min-height:100vh;
+  overflow-x:hidden;
+
+  background:
+  radial-gradient(circle at top left,#2563eb 0%,transparent 30%),
+  radial-gradient(circle at bottom right,#7c3aed 0%,transparent 30%),
+  linear-gradient(135deg,#020617,#0f172a,#111827);
+
+  background-attachment:fixed;
+}
+
+a{
+  text-decoration:none;
+}
+
+button{
+  font-family:'Poppins',sans-serif;
+}

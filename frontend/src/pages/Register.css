@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:'Poppins',sans-serif;
+
+    min-height:100vh;
+
+    background:
+    radial-gradient(circle at top left,#2563eb 0%,transparent 30%),
+    radial-gradient(circle at bottom right,#7c3aed 0%,transparent 30%),
+    linear-gradient(135deg,#020617,#0f172a,#111827);
+
+    background-attachment:fixed;
+}
+
+/* Page Container */
+.register-page{
+    min-height:100vh;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    padding:20px;
+}
+
+/* Register Card */
+.register-card{
+    width:100%;
+    max-width:500px;
+
+    background:rgba(255,255,255,0.08);
+
+    backdrop-filter:blur(20px);
+
+    border:1px solid rgba(255,255,255,0.12);
+
+    border-radius:30px;
+
+    padding:40px;
+
+    box-shadow:
+    0 15px 40px rgba(0,0,0,0.35);
+}
+
+/* Title */
+.register-title{
+    text-align:center;
+
+    font-size:2rem;
+    font-weight:700;
+
+    margin-bottom:25px;
+
+    background:linear-gradient(
+        90deg,
+        #38bdf8,
+        #8b5cf6
+    );
+
+    -webkit-background-clip:text;
+    -webkit-text-fill-color:transparent;
+}
+
+/* Form */
+.register-form{
+    display:flex;
+    flex-direction:column;
+    gap:18px;
+}
+
+/* Inputs */
+.register-input{
+    width:100%;
+
+    padding:15px;
+
+    border-radius:15px;
+
+    border:1px solid rgba(255,255,255,0.15);
+
+    background:rgba(255,255,255,0.08);
+
+    color:white;
+
+    outline:none;
+
+    font-size:15px;
+}
+
+.register-input::placeholder{
+    color:#cbd5e1;
+}
+
+.register-input:focus{
+    border-color:#60a5fa;
+
+    box-shadow:
+    0 0 15px rgba(96,165,250,0.3);
+}
+
+/* Button */
+.register-btn{
+    padding:15px;
+
+    border:none;
+    border-radius:15px;
+
+    background:linear-gradient(
+        135deg,
+        #2563eb,
+        #3b82f6
+    );
+
+    color:white;
+
+    font-size:16px;
+    font-weight:600;
+
+    cursor:pointer;
+
+    transition:0.3s;
+}
+
+.register-btn:hover{
+    transform:translateY(-3px);
+
+    box-shadow:
+    0 10px 25px rgba(59,130,246,0.4);
+}
+
+/* Footer */
+.register-footer{
+    text-align:center;
+
+    margin-top:25px;
+
+    color:#cbd5e1;
+}
+
+.register-footer a{
+    color:#60a5fa;
+    text-decoration:none;
+    font-weight:600;
+}
+
+.register-footer a:hover{
+    color:#93c5fd;
+}
+
+/* Responsive */
+@media(max-width:600px){
+
+    .register-card{
+        padding:30px 20px;
+    }
+
+    .register-title{
+        font-size:1.7rem;
+    }
+}

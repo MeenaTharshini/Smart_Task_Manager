@@ -1,0 +1,36 @@
+{
+  "users": [
+    {
+      "id": "57e01d34-78e2-4b57-b513-6a5665b5e92a",
+      "name": "Shiba Tharshini I",
+      "email": "shibatharshiniiyappan07@gmail.com",
+      "password": "Shibu@2007"
+    },
+    {
+      "id": "c6d83e00-4801-479e-827d-d57d73a3d6ae",
+      "name": "Meena Tharshini I",
+      "email": "meenatharshiniiyappan@gmail.com",
+      "password": "Minu@2006"
+    }
+  ],
+  "tasks": [
+    {
+      "id": "e3ace86d-9a17-4325-8d43-4482dd1b93d7",
+      "userId": "57e01d34-78e2-4b57-b513-6a5665b5e92a",
+      "title": "Learn Python",
+      "description": "",
+      "status": "Completed",
+      "priority": "Medium",
+      "createdAt": "2026-06-11T12:34:19.631Z"
+    },
+    {
+      "id": "a1e7c074-3c4d-4e72-b467-fe40282a9c53",
+      "userId": "c6d83e00-4801-479e-827d-d57d73a3d6ae",
+      "title": "Sleep",
+      "description": "",
+      "status": "Completed",
+      "priority": "Medium",
+      "createdAt": "2026-06-11T12:35:19.121Z"
+    }
+  ]
+}
